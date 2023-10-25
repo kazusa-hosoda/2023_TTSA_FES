@@ -1,0 +1,179 @@
+html{
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    margin: 5%;
+}
+
+.Top .Title{
+    text-align: center;
+    font-family: Castellar; /* フォント */
+    font-size: 250%;
+    max-width: 100%;
+    height: auto;
+}
+
+.Top .Title span{
+    background: linear-gradient(135deg, #ff0000 0%, #fbff00 33%, #00ff08 66%, #002aff 100%);
+    background: -webkit-linear-gradient(-45deg, #ff0000 0%, #fbff00 33%, #00ff08 66%, #002aff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.Top .Title2{
+    color: #00a303;
+    text-align: center;
+    font-size: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.Top .Subtitle{
+    text-align: right;
+}
+
+p.atdays {
+    top: 10px;
+    display: inline-block;
+    margin: 0 auto 10px;
+    background: #f0db3f;
+    color: #313131;
+    padding: 3px 20px;
+    position: relative;
+    border-radius: 2px;
+}
+
+p.atdays:after {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    margin-left: -10px;
+    border: 10px solid transparent;
+    border-top: 10px solid #f0db3f;
+    z-index: 2;
+}
+
+p#countTimer {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 0.08rem;
+    text-align: center;
+}
+
+p#countTimer span {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-right: 10px;
+}
+
+.カウントダウン{
+    background-color: #ffffff;
+    color: rgb(255, 0, 0);
+}
+
+.main{
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+}
+
+.main img{
+    width: 100%;
+}
+
+.main .border-groove {
+    text-align: left;
+    margin-top: 2px;
+    border: 10px groove #ffa500;
+    color: black;
+    background-color: #ffffff;
+}
+
+.main2 img{
+    width: 100%;
+}
+
+.box1{
+    padding: 0.5em 1em;
+    margin: 1em 0;
+    background: #f4f4f4;
+    border-left: solid 6px #ff0000;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.33);
+}
+
+.box2{
+    padding: 0.5em 1em;
+    margin: 1em 0;
+    background: #f4f4f4;
+    border-left: solid 6px #e600ff;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.33);
+}
+
+.box3{
+    padding: 0.5em 1em;
+    margin: 1em 0;
+    background: #f4f4f4;
+    border-left: solid 6px #ff7700;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.33);
+}
+
+.box4{
+    padding: 0.5em 1em;
+    margin: 1em 0;
+    background: #f4f4f4;
+    border-left: solid 6px #fff200;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.33);
+}
+
+.box5{
+    padding: 0.5em 1em;
+    margin: 1em 0;
+    background: #f4f4f4;
+    border-left: solid 6px #00ff1e;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.33);
+}
+
+.box6{
+    padding: 0.5em 1em;
+    margin: 1em 0;
+    background: #f4f4f4;
+    border-left: solid 6px #00a303;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.33);
+}
+
+.box7{
+    padding: 0.5em 1em;
+    margin: 1em 0;
+    background: #f4f4f4;
+    border-left: solid 6px #00fff7;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.33);
+}
+
+.box8{
+    padding: 0.5em 1em;
+    margin: 1em 0;
+    background: #f4f4f4;
+    border-left: solid 6px #001eff;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.33);
+}
+
+.box9{
+    padding: 0.5em 1em;
+    margin: 1em 0;
+    background: #f4f4f4;
+    border-left: solid 6px #8000ff;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.33);
+}
+
+#タイムスケジュール p{
+    color: black;
+    margin: 0; 
+    padding: 0;
+}
+
+#お知らせ p{
+    color: black;
+    margin: 0; 
+    padding: 0;
+}
