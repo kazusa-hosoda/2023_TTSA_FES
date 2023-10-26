@@ -1,6 +1,6 @@
 html{
-    background-color: rgb(0, 0, 0);
-    color: #ffffff;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
     margin: 5%;
 }
 
@@ -68,7 +68,6 @@ p#countTimer span {
 }
 
 .カウントダウン{
-    background-color: #ffffff;
     color: rgb(255, 0, 0);
 }
 
@@ -85,13 +84,23 @@ p#countTimer span {
 .main .border-groove {
     text-align: left;
     margin-top: 2px;
-    border: 10px groove #ffa500;
+    border: 10px groove #48ff00;
     color: black;
     background-color: #ffffff;
 }
 
 .main2 img{
     width: 100%;
+}
+
+#タイムスケジュール a{
+    color: #000000;
+    text-decoration: none;
+}
+
+#タイムスケジュール a:hover{
+    color: #001eff;
+    text-decoration: underline;
 }
 
 .box1{
@@ -106,7 +115,7 @@ p#countTimer span {
     padding: 0.5em 1em;
     margin: 1em 0;
     background: #f4f4f4;
-    border-left: solid 6px #e600ff;
+    border-left: solid 6px #ff00b3;
     box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.33);
 }
 
