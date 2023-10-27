@@ -94,12 +94,10 @@ p#countTimer span {
 }
 
 #タイムスケジュール a{
-    color: #000000;
     text-decoration: none;
 }
 
 #タイムスケジュール a:hover{
-    color: #001eff;
     text-decoration: underline;
 }
 
