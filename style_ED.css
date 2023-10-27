@@ -1,0 +1,116 @@
+html{
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    margin: 5%;
+}
+
+.Top a{
+    text-decoration: none;
+}
+
+.Top .Title{
+    text-align: center;
+    font-family: Castellar; /* フォント */
+    font-size: 250%;
+    max-width: 100%;
+    height: auto;
+}
+
+.Top .Title span{
+    background: linear-gradient(135deg, #ff0000 0%, #fbff00 33%, #00ff08 66%, #002aff 100%);
+    background: -webkit-linear-gradient(-45deg, #ff0000 0%, #fbff00 33%, #00ff08 66%, #002aff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.Top .Title2{
+    color: #00a303;
+    text-align: center;
+    font-size: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+div h1 span{
+    background: linear-gradient(135deg, #ff0000 0%, #fba5dd 100%);
+    background: -webkit-linear-gradient(-45deg, #ff0000 0%, #fba5dd 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.background {
+    background-image: url('カバハウス画像.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+	width: 100%;
+	background-color:rgba(255, 255, 255, 0.6);
+	background-blend-mode:lighten;
+	text-align: center;
+}
+
+.box p {
+    margin: 0; 
+    padding: 0;
+    font-size: 100%;
+}
+
+.box1 {
+    width: 50%;/* 紙の横幅 100%にすると全幅表示に */
+    padding: 15px;
+    margin: 2em auto;
+    background: #f79292;/* 紙の色 */
+    color: #000;/* 文字色 */
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.03);transform:rotate(2deg);
+    word-break: break-all;
+}
+
+.box2 {
+    width: 50%;/* 紙の横幅 100%にすると全幅表示に */
+    padding: 15px;
+    margin: 2em auto;
+    background: #f792c3;/* 紙の色 */
+    color: #000;/* 文字色 */
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.03);transform:rotate(-2deg);
+    word-break: break-all;
+}
+
+.box3 {
+    width: 50%;/* 紙の横幅 100%にすると全幅表示に */
+    padding: 15px;
+    margin: 2em auto;
+    background: #f7f092;/* 紙の色 */
+    color: #000;/* 文字色 */
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.03);transform:rotate(2deg);
+    word-break: break-all;
+}
+
+.box①_tape {
+    width: 50%;
+    height: 35px;
+    margin: -25px auto 0;
+    background: #989898;
+    transform: rotate(-3deg);
+    opacity: 0.1;
+}
+
+.box②_tape {
+    width: 50%;
+    height: 35px;
+    margin: -25px auto 0;
+    background: #989898;
+    transform: rotate(3deg);
+    opacity: 0.1;
+}
+
+.box_title {
+    text-align: center;
+    font-size: 130%!important;
+    margin-top: 10px!important;
+}
+
+.box_subtitle {
+    text-align: center;
+    font-size: 70%!important;
+    margin-bottom: 1em!important;
+}
