@@ -93,13 +93,13 @@ div h1 span{
     opacity: 0.1;
 }
 
-.box1_title {
+.box_title {
     text-align: center;
     font-size: 130%!important;
     margin-top: 10px!important;
 }
 
-.box1_subtitle {
+.box_subtitle {
     text-align: center;
     font-size: 70%!important;
     margin-bottom: 1em!important;
