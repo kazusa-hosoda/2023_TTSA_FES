@@ -179,6 +179,30 @@ p#countTimer span {
     box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.33);
 }
 
+.box10{
+    padding: 0.5em 1em;
+    margin: 1em 0;
+    background: #f4f4f4;
+    border-left: solid 6px #906000;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.33);
+}
+
+.box11{
+    padding: 0.5em 1em;
+    margin: 1em 0;
+    background: #f4f4f4;
+    border-left: solid 6px #000000;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.33);
+}
+
+.box12{
+    padding: 0.5em 1em;
+    margin: 1em 0;
+    background: #f4f4f4;
+    border-left: solid 6px #ffffff;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.33);
+}
+
 #タイムスケジュール p{
     color: black;
     margin: 0; 
