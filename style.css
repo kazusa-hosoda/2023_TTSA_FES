@@ -27,10 +27,6 @@ html{
     height: auto;
 }
 
-.Top .Subtitle{
-    text-align: right;
-}
-
 p.atdays {
     top: 10px;
     display: inline-block;
@@ -269,7 +265,11 @@ p#countTimer span {
       display: flex;
     }
 }
-  
+
+.footer .Subtitle{
+    text-align: center;
+}
+
 .会社名 {
     text-align: center;
 }
